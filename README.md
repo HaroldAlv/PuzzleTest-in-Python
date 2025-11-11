@@ -47,6 +47,10 @@ Este proyecto resuelve la prueba técnica **Puzzle Fragment Server**, donde el o
 
 Sí — El programa completa la reconstrucción típicamente en **~0.25–0.60 segundos** dependiendo de la latencia del servidor.
 
+<p align="center">
+  <img src="images/resultado.png" width="500">
+</p>
+
 ---
 #Ejecución
 
