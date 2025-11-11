@@ -33,9 +33,9 @@ async def main():
     message = " ".join(fragments[i] for i in sorted(fragments))
     end_time = time.perf_counter()  # 👈 Fin de medición
 
-    print("\Mensaje reconstruido:\n")
+    print("\nMensaje reconstruido:\n")
     print(message)
 
-    print(f"\Tiempo de ejecución: {end_time - start_time:.4f} segundos")
+    print(f"\nTiempo de ejecución: {end_time - start_time:.4f} segundos\n")
 
 asyncio.run(main())
